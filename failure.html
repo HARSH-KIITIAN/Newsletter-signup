@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oh No!</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        h1{
+            margin-top: 0;
+            margin-left: 12%;
+            padding-top: 4%;
+        }
+        h4{
+            margin-left: 12%;
+            margin-bottom: 30px;
+        }
+        .main{
+            background-color: rgb(185, 136, 136);
+            padding-bottom: 6%;
+        }
+        .btn{
+            background-color: wheat;
+            margin-left: 12%;
+            border: 2px solid black;
+            border-radius: 6px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .btn:hover{
+            background-color: aliceblue;
+            font-size: 25px;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Signup Failed</h1>
+        <h4>Looks like something goes wrong, try again or contact us.</h4>
+
+        <form action="/failure" method="post">
+            <button type="submit" class="btn">Try again</button>
+        </form>
+    </div>
+</body>
+</html>
